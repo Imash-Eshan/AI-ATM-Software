@@ -248,6 +248,7 @@ public class Main {
 						
 						}
 					}
+					System.out.println();
 					System.out.println("Enter your Gender(Enter 'Other' if you do not prefer to mention your gender) : ");
 				gender = in.next().toLowerCase();
 				
@@ -264,10 +265,11 @@ public class Main {
 					}
 				}
 				
-				
+				System.out.println();
 				System.out.println("Enter your NIC number : ");
 				String nic = in.next();
 				
+				System.out.println();
 				System.out.println("Enter your Date of birth(use the following format - date month year (Eg:13 09 1993)) : ");
 				//******
 				String dateVerif = in.next();
@@ -333,6 +335,7 @@ public class Main {
 				}
 				
 				in.nextLine();
+				System.out.println();
 				System.out.println("Enter your Phone number : ");
 				phoneNum = in.nextLine();
 				for(;;) {
@@ -345,6 +348,7 @@ public class Main {
 					
 				}
 				
+				System.out.println();
 				System.out.println("Enter your E-mail address");
 				email = in.nextLine();
 				for(;;) {
@@ -361,7 +365,7 @@ public class Main {
 				
 				
 				
-				
+				System.out.println();
 				System.out.println("Enter Password :");
 				/*Password alredy taken*/
 				password = in.nextLine();
@@ -392,6 +396,7 @@ public class Main {
 					}
 				}
 				
+				System.out.println();
 				System.out.println("Confirm Password :");
 				passwordConfirm = in.nextLine();
 				
@@ -418,6 +423,8 @@ public class Main {
 			//	System.out.println(Users.get(Userno-1).getPinNumber());
 				
 				usernamePasswordRelation=Users.size()-1;
+
+				System.out.println();
 				System.out.println("Dear customer please remember the following pin number as it is required in doing transactions using our services"+"\nPin number : "+Users.get(usernamePasswordRelation).getPinNumber());
 				loginBack=0;
 				
