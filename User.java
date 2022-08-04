@@ -30,7 +30,7 @@ public class User {
 	 ArrayList<Integer> Amount = new ArrayList<>();
 	 ArrayList<Integer> Balance = new ArrayList<>();
 	 
-	 ArrayList<Object> WithdrawTimes= new ArrayList<>();
+	 //ArrayList<Object> WithdrawTimes= new ArrayList<>();
 	
 	
 	public String getFirstName() {
