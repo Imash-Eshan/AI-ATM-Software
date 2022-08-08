@@ -571,7 +571,7 @@ public class Main {
 						System.out.println("Age : "+Users.get(usernamePasswordRelation).getAge()+" years old");
 						System.out.println("Gender : "+Users.get(usernamePasswordRelation).getGender());
 						System.out.println("National Identity Card number : "+Users.get(usernamePasswordRelation).getNIC());
-						System.out.println("Date : "+Users.get(usernamePasswordRelation).getDateBirth()+" "+Users.get(usernamePasswordRelation).getMonthBirth()+" "+Users.get(usernamePasswordRelation).getYearBirth());
+						System.out.println("Date of birth : "+Users.get(usernamePasswordRelation).getDateBirth()+" "+Users.get(usernamePasswordRelation).getMonthBirth()+" "+Users.get(usernamePasswordRelation).getYearBirth());
 						System.out.println("Contact Number : "+Users.get(usernamePasswordRelation).getPhoneNum() );
 						System.out.println("Email : "+Users.get(usernamePasswordRelation).getEmail());
 						System.out.println();
