@@ -580,7 +580,7 @@ public class Main {
 						
 						
 						System.out.println();
-						System.out.println("Do you wish to see the statistics of your transactions?Press y if yes or press n if no");
+						System.out.println("Do you wish to see the statistics of your transactions? Press y if yes or press n if no");
 						String stat = in.next();
 						int count=0;
 						for(;;) {
@@ -680,7 +680,7 @@ public class Main {
 						
 					}
 					else if(processNumber2==3) {
-						System.out.println("Enter your pin number or press 'back' to go back to the dashboard");
+						System.out.println("Enter your pin number or type 'back' to go back to the dashboard");
 						String pinNum = in.next();
 						int LoginBackWithdraw=0;
 						//******
@@ -738,7 +738,7 @@ public class Main {
 							//in.nextLine();
 							
 							if(Users.get(usernamePasswordRelation).getAccountBalance()<withdrawn) {
-								System.out.println("Dear customer, your balance is not sufficient to make withdraw the above amount");
+								System.out.println("Dear customer, your balance is not sufficient to make the above withdrawal");
 							}else {
 							Users.get(usernamePasswordRelation).setAccountBalance(Users.get(usernamePasswordRelation).getAccountBalance()-withdrawn);
 							LocalDateTime dateTime = LocalDateTime.now();
