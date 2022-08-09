@@ -660,7 +660,7 @@ public class Main {
 										Users.get(usernamePasswordRelation).Balance.add((Users.get(usernamePasswordRelation).Balance.get(Users.get(usernamePasswordRelation).Balance.size()-1))+deposit);
 									}
 									
-									System.out.printf("Rs.%d has been successfully deposited into your account",deposit);
+									System.out.printf("Rs.%d have been successfully deposited into your account",deposit);
 									//LocalDate date = LocalDate.
 									System.out.println();
 									break;
@@ -750,7 +750,7 @@ public class Main {
 							Users.get(usernamePasswordRelation).Transaction.add("Withdrawal");
 							//***Users.get(usernamePasswordRelation).Balance.add(Users.get(usernamePasswordRelation).Balance.get(Users.get(usernamePasswordRelation).Balance.size()-1)-withdrawn));
 							Users.get(usernamePasswordRelation).Balance.add((Users.get(usernamePasswordRelation).Balance.get(Users.get(usernamePasswordRelation).Balance.size()-1))-withdrawn);
-							System.out.printf("Rs.%d has been successfully withdrawn from your account",withdrawn);
+							System.out.printf("Rs.%d have been successfully withdrawn from your account",withdrawn);
 							System.out.println();
 							}
 							
