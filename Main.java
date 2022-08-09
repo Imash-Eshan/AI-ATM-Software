@@ -390,7 +390,7 @@ public class Main {
 						if(passcount>0)
 						break;
 					}else {
-						System.out.println("Password must contain must contain Upper case characters(A-Z), lower case characters(a-z), special characters(eg: ?#$) and must be at least 15 characters of length");
+						System.out.println("Password must contain Upper case characters(A-Z), lower case characters(a-z), special characters(eg: ?#$) and must be at least 15 characters in length");
 						password = in.nextLine();
 						
 					}
