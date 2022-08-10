@@ -212,7 +212,7 @@ public class Main {
 							if(age>17) {
 								break;
 							}else {
-								System.out.println("Dear customer you have to be 18 years old or higher to use this service");
+								System.out.println("Dear user you have to be 18 years old or higher to use this service");
 								System.out.println("Enter your Age : ");
 								
 								//***age = in.nextInt();
@@ -241,7 +241,7 @@ public class Main {
 										break;
 										
 									}else {
-										System.out.println("Please enter a valid number");
+										System.out.println("Please enter a valid age");
 										ageVerif = in.next();
 									}
 								}
