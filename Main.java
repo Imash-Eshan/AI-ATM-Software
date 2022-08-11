@@ -113,10 +113,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		//test
-	/*	LocalDate dd = LocalDate.now();
-		DateTimeFormatter oo = DateTimeFormatter.ofPattern("yyyy");
-		System.out.println(oo);*/
+		
 		
 		for(;;) {
 			System.out.println();
